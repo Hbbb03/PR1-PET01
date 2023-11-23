@@ -1,4 +1,4 @@
-com.example.qr
+com.example.flutter_application_1
 attr activityAction
 attr activityName
 attr alpha
@@ -153,6 +153,9 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
+mipmap ic_launcher_monochrome
 string status_bar_notification_info_overflow
 style LaunchTheme
 style NormalTheme

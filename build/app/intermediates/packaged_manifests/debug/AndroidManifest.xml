@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.qr"
+    package="com.example.flutter_application_1"
     android:versionCode="1"
-    android:versionName="0.1.0" >
+    android:versionName="1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -19,9 +19,9 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="qr" >
+        android:label="flutter_application_1" >
         <activity
-            android:name="com.example.qr.MainActivity"
+            android:name="com.example.flutter_application_1.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"

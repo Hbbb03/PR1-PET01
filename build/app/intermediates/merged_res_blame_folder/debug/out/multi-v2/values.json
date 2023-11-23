@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.qr.app-mergeDebugResources-9:/values/values.xml",
+            "outputFile": "com.example.flutter_application_1.app-mergeDebugResources-10:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-3\\7e9df2ac2213a6bd3cef0f2f27870d79\\transformed\\core-1.6.0\\res\\values\\values.xml",
@@ -42,14 +42,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\USUARIO\\Documents\\Pet App\\QRprueba\\QR\\qr\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\USUARIO\\Documents\\qr\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
-                        "startOffsets": "176,832",
+                        "startOffsets": "173,818",
                         "endLines": "7,16",
                         "endColumns": "12,12",
-                        "endOffsets": "483,998"
+                        "endOffsets": "476,982"
                     },
                     "to": {
                         "startLines": "93,97",
