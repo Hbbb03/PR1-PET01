@@ -1,0 +1,17 @@
+body {
+    background-color: #e5f3e5; /* Cambia el fondo a verde suave */
+}
+
+.navbar-brand::before {
+    content: "";
+    display: inline-block;
+    width: 30px; /* Ajusta el ancho del logo */
+    height: 30px; /* Ajusta el alto del logo */
+    background: url('~/images/logo.png') no-repeat;
+    background-size: contain;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+
+
+

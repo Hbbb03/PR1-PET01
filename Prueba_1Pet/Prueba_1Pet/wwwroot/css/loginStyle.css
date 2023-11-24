@@ -1,0 +1,92 @@
+﻿.body-login {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #205375, #F66B0E,#112B3C);
+    background-size: 300% 300%;
+    color: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: changeBg 5s linear infinite;
+}
+
+@keyframes changeBg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/*.body-login {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}*/
+
+
+h1 {
+    color: #860842; 
+}
+
+form {
+    background-color: #fff;
+    padding: 30px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #860842;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+    button[type="submit"]:hover {
+        background-color: #838383; 
+    }
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; 
+    width: 250px;
+}
+.italic {
+    font-style: italic;
+    font-size: 60px;
+  /*  color: #EFEFEF;*/
+    color: #205375;
+    font-family: Verdana;
+    font-family: 'PT Sans';
+    font-weight: bold;
+}
+
+
+.parrafo {
+    background-color: #205375;
+    color:antiquewhite;
+}

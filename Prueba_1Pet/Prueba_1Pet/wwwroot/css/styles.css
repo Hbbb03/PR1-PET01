@@ -1,0 +1,73 @@
+/* Establece el fondo verde */
+body {
+    background-color: #4CAF50;
+    font-family: Arial, sans-serif; /* Cambia la fuente del texto */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+/* Centra el contenido y establece el color de fuente en blanco */
+.text-center {
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+/* Establece estilos para el título */
+.display-4 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    margin-bottom: 20px; /* Agrega espacio debajo del título */
+}
+
+/* Establece un borde en el contenedor */
+.display-container {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Agrega una sombra alrededor del contenedor */
+}
+
+/* Establece la imagen de la empresa */
+.company-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    background: url('../images/logo.png') no-repeat;
+    background-size: contain;
+    border: 2px solid white; /* Agrega un borde alrededor de la imagen */
+    border-radius: 50%; /* Hace que la imagen tenga forma circular */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Agrega una sombra suave a la imagen */
+}
+
+/* Estilos para la información de administradores */
+.admin-info {
+    background-color: #fff; /* Fondo blanco para el contenedor de información de administradores */
+    color: #333; /* Color de fuente oscuro */
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0; /* Agrega margen arriba y abajo */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+    .admin-info h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .admin-info p {
+        font-size: 16px;
+        line-height: 1.5; /* Espaciado de línea aumentado */
+    }
+
+    .admin-info ul {
+        list-style: disc; /* Establece viñetas para las listas desordenadas */
+        margin-left: 20px;
+    }
+
+        /* Estilos para los ejemplos de tareas administrativas */
+        .admin-info ul li {
+            margin: 5px 0;
+        }

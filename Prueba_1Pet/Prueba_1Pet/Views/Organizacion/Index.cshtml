@@ -1,0 +1,27 @@
+﻿@model Prueba_1Pet.Models.Usuario
+
+@{
+    ViewData["Title"] = "Index2";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+<body>
+    <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form asp-controller="Usuario" asp-action="IniciarSesion" method="post">
+            <label for="NombreUsuario">Nombre de Usuario</label>
+            <input type="text" id="NombreUsuario" name="NombreUsuario" placeholder="Nombre de Usuario" required>
+
+            <label for="Password">Contraseña</label>
+            <input type="password" id="Password" name="Password" placeholder="Contraseña" required>
+
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+</body>
+</html>

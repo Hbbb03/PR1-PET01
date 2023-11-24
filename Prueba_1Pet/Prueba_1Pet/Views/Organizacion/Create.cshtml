@@ -1,0 +1,46 @@
+﻿@model Prueba_1Pet.Models.Organizacion
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/css/cr.css" />
+<h1>Crear Organizacion</h1>
+
+@using (Html.BeginForm("Create", "Organizacion", FormMethod.Post))
+{
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descripcion"></label>
+        <input asp-for="Descripcion" class="form-control" />
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Estado"></label>
+        <input asp-for="Estado" class="form-control" />
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaRegistro"></label>
+        <input asp-for="FechaRegistro" type="date" class="form-control" />
+        <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaActualizacion"></label>
+        <input asp-for="FechaActualizacion" type="date" class="form-control" />
+        <span asp-validation-for="FechaActualizacion" class="text-danger"></span>
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+}
+
+<a asp-action="Index">Volver a la lista</a>

@@ -1,0 +1,47 @@
+body {
+    background-color: #F0F8FF; /* Fondo blanco suave */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #008000; /* Fondo verde oscuro */
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+    .login-container h1 {
+        text-align: center;
+        color: #FFFFFF; /* Texto blanco */
+    }
+
+    .login-container label {
+        color: #FFFFFF; /* Texto blanco */
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .login-container button {
+        background-color: #4CAF50; /* Fondo verde suave */
+        color: #FFFFFF; /* Texto blanco */
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+        .login-container button:hover {
+            background-color: #45a049; /* Fondo verde un poco más oscuro al pasar el mouse */
+        }

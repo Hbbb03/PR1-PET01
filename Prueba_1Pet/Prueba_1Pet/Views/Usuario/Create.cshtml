@@ -1,0 +1,38 @@
+﻿@model Prueba_1Pet.Models.Usuario
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/css/cr.css" />
+<h1>Crear Organizacion</h1>
+
+@using (Html.BeginForm("Create", "Usuario", FormMethod.Post))
+{
+    <div class="form-group">
+        <label asp-for="NombreUsuario"></label>
+        <input asp-for="NombreUsuario" class="form-control" />
+        <span asp-validation-for="NombreUsuario" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="RepetirPassword" type="password" class="form-control" />
+        <span asp-validation-for="RepetirPassword" class="text-danger"></span>
+    </div>
+
+
+
+
+
+
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+}
+
+<a asp-action="Index">Volver a la lista</a>
