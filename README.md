@@ -1,5 +1,9 @@
     Manual Técnico
 
+
+Video de presentacion de proyecto : https://youtu.be/3kJVpvvz9_w?si=7m2i1E-ZTGUx7zPE
+
+
 1.	Introducción:
 
 El presente Manual Técnico ofrece una visión exhaustiva y detallada del desarrollo y funcionamiento de la aplicación de máquina recicladora, un proyecto innovador orientado a promover y fomentar el reciclaje mediante la tecnología móvil. Esta herramienta pretende abordar la problemática ambiental incentivando a los usuarios a participar activamente en la recopilación y reciclaje de botellas plásticas mediante un sistema de recompensas.
